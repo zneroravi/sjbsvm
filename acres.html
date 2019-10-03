@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Academic Results</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Simple Line Font -->
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Main CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ========================= ABOUT IMAGE =========================-->
+    <div class="about_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="index.html"><img src="images/responsive-logo.png" class="responsive-logo img-fluid" alt="responsive-logo"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                            <span class="icon-menu"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                            <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                                </li>
+             <li class="nav-item dropdown">
+                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">
+                    Academics<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Admissions</a></li>
+                    <li><a class="dropdown-item" href="acres.html">Academic Results</a></li>
+                    <li><a class="dropdown-item" href="fees.html">Fees Structure</a></li>
+                    <li><a class="dropdown-item" href="#">Our Teachers</a></li>
+                    <li><a class="dropdown-item" href="#">Management</a></li>
+                </ul>
+            </li>
+                               
+            <li class="nav-item dropdown">
+                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">
+                    Campus Life<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Lab Facilities</a></li>
+                    <li><a class="dropdown-item" href="#">Sport Facilities</a></li>
+                    <li><a class="dropdown-item" href="#">Junior Stars</a></li>
+                    <li><a class="dropdown-item" href="#">Transportation Facilities</a></li>
+                    <li><a class="dropdown-item" href="#">Hostel Facilities</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">
+                    Alumni Cell<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Alumnus</a></li>
+                    <li><a class="dropdown-item" href="#">Alumni Registration</a></li>
+                    <li><a class="dropdown-item" href="#">Alumni Event</a></li>
+                </ul>
+            </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Our Shining Stars</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!--//END ABOUT IMAGE -->
+<!--============================= ABOUT TITLE =============================-->
+<style>
+        *{
+            box-sizing: border-box;
+            margin:  0;
+            padding: 0;
+
+        }
+        .custom-text{
+            text-align: center;
+            margin-top:  10px;
+            font-family: arial;
+            font-size: 2em !important;
+        }
+        h2.custom-text{
+            margin-top:  20px;  
+        }
+        .align-left{
+            text-align: left;
+            width: 70%;
+            display: block;
+            margin: 0 auto;
+        }
+        .table-container{
+            text-align: center !important ;
+            margin-top:  20px !important ;
+            width: 100% !important;
+            margin-bottom: 100px;
+        }
+        table,td{
+            border:  1px solid #0005;
+            border-collapse: collapse;
+        }
+        table.fee-details{
+           display: inline-table !important ;
+            width:  45%  ;
+        }
+        table.fee-details tr td:first-child{
+            color: #fff;
+            background-color: #0004;
+        }
+        .table-container table.fee-details:nth-child(3){
+            margin-left: 30px;
+        }
+        table.fee-details tr:first-child{
+            background-color: rgba(0,0,0,0.4);
+            font-family: arial;
+            font-size: 0.9em;
+        }
+        table.fee-details tr:first-child th{
+            padding:  10px 0;
+            text-align: center;
+        }
+        table.fee-details tr td{
+            padding:  4px 0;
+            text-transform: uppercase;
+        }
+        table.fee-details tr td:first-child,table.fee-details tr td:last-child{
+            text-align: center;
+        }
+        table.fee-details tr td:nth-child(2){
+            padding-left:  20px;
+        }
+        .caption{
+            font-family: arial;
+            text-align: center;
+        }
+        .achievements{
+            /* outline:  1px solid black; */
+            width:  650px;
+            margin:  20px auto 50px auto;
+            display: flex;
+            justify-content: center;
+        }
+        .achievements ul{
+            list-style-type: none;
+        }
+        .achievements ul li{
+            padding-left:  20px;
+            width:  350px;
+            position: relative;
+        }
+        .achievements ul li::before{
+            content: '-';
+            position: absolute;
+            left:  0;
+            font-size: 1.5em;
+            top:  -38%;
+        }
+        .achievements ul li span:last-child{
+            position: absolute;
+            right:  0;
+            font-weight: bold;
+            font-family: arial;
+        }
+    </style>
+    <div class="container" style="width: 95%">
+        <h1 style="font-weight: bold; margin-bottom: 50px" class="custom-text">CBSE SSE (Class XII) Result 2017-18</h1>
+
+        <h2 class="custom-text align-left">Our Topper: </h2>
+        <p class="custom-text align-left" style="font-size: 1.5em !important"><span>Lalit Agrawal - 98.40% </span> - Commerce Stream <span style="font-weight: bold">(Agra Region Topper)</span></p>
+        <p class="custom-text align-left" style="font-size: 1.5em !important"><span >Pransgul Goyal - 97.40% </span> -  Science Stream</p>
+        <h2 class="custom-text" style="margin-top: 60px">Remarkable Achievemenets: </h2>
+        <div class="achievements" >
+            <ul>
+                <li><span>Total students appeared</span><span> 165</span></li>
+                <li><span>First Division </span><span> 164</span></li>
+                <li><span>Second Division </span><span> 01(58%)</span></li>
+                <li><span>Student above 90% </span><span> 40</span></li>
+                <li><span>Students above 75% </span><span> 137</span></li>
+                <li><span>Total distinction </span><span> 701</span></li>
+                <li><span>Distinctions in all subjects (total students)</span><span> 88 </span></li>
+            </ul>
+        </div>
+
+        <div class="table-container">
+            <p class="caption">Meritorious students getting 90% and above (Excluding Additional Subject FIT)</p>
+            <table class="fee-details">
+                <tr>
+                    <th>SN</th>
+                    <th>Name</th>
+                    <th>%</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Lalit Agrawal</td>
+                    <td>98.4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pranshul Goyal</td>
+                    <td>97.4</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Govind</td>
+                    <td>97.0</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Kapish Agrawal</td>
+                    <td>96.4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Prashant Sirohi</td>
+                    <td>96.0</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Divyang Agrawal</td>
+                    <td>96.0</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>PRATEEK CHAUDHARY</td>
+                    <td>95.4</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>HARSH GUPTA</td>
+                    <td>95.4</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>KRISHNA RAJPUT</td>
+                    <td>95.2</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>BHUVNESH KUMAR</td>
+                    <td>95.0</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>KUSHAGRA AGRAWAL</td>
+                    <td>94.6</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>VIKRAM DAHIYA</td>
+                    <td>94.6</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>LAXMI NARAYAN</td>
+                    <td>94.4</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>MEHANK AGRAWAL</td>
+                    <td>94.2</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>ROHIT VARSHNEY</td>
+                    <td>94.2</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>KANHAIYA SINGH</td>
+                    <td>94.0</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>RANJEET SINGH</td>
+                    <td>94.0</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>HEMANT MITTAL</td>
+                    <td>93.8</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>MEGHANSH BANSAL</td>
+                    <td>93.6</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>SHIVAM AGRAWAL</td>
+                    <td>93.4</td>
+                </tr>
+
+            </table>
+
+
+        <!-- 2nd table -->
+            <table class="fee-details">
+                <tr>
+                    <th>SN</th>
+                    <th>Name</th>
+                    <th>%</th>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>JAI KISHAN PARIHAR</td>
+                    <td>92.8</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>MOHIT JAIN</td>
+                    <td>92.8</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>PRASHANT GAUTAM</td>
+                    <td>92.6</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>HARSH PRATAP SINGH</td>
+                    <td>92.6</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>AKASH CHAHAR</td>
+                    <td>92.4</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>SHIVANSHU BAJPAYEE</td>
+                    <td>92.4</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>YASHANSHU SHARMA</td>
+                    <td>92.2</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>VEDANG RAJ MISHRA</td>
+                    <td>92.0</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>GAURANG AGRAWAL</td>
+                    <td>92.0</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>NAND LAL AGRAWAL</td>
+                    <td>92.0</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>BASU GARG/td>
+                    <td>91.6</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>KARAN AGRAWAL</td>
+                    <td>91.6</td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>DEEPAK SIROHI</td>
+                    <td>91.4</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>SUVEET KUMAR</td>
+                    <td>91.2</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>VINEET CHAUDHARY</td>
+                    <td>91.2</td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td>HARSH BANSAL</td>
+                    <td>91.2</td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>ANSHUL JINDAL </td>
+                    <td>90.8</td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td>ROHIT SHARMA</td>
+                    <td>90.4</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td>ABHISHEK CHAUHAN</td>
+                    <td>90.4</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>ROHIT PRATAP SINGH</td>
+                    <td>90.0</td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+
+    <div class="container" style="width: 95%">
+        <h1 style="font-weight: bold; margin-bottom: 50px" class="custom-text">CBSE SSE (Class X) Result 2017-18</h1>
+
+        <h2 class="custom-text align-left">Our Topper: </h2>
+        <p class="custom-text align-left" style="font-size: 1.5em !important"><span>Ayush Agrawal - 98.00% </span></p>
+        <h2 class="custom-text" style="margin-top: 60px">Remarkable Achievemenets: </h2>
+        <div class="achievements" >
+            <ul>
+                <li><span>Total students appeared</span><span> 167</span></li>
+                <li><span>First Division </span><span> 160</span></li>
+                <li><span>Second Division </span><span> 07</span></li>
+                <li><span>Student above 90% </span><span> 45</span></li>
+                <li><span>Students above 75% </span><span> 122</span></li>
+                <li><span>Total distinction </span><span> 768</span></li>
+                <li><span>Distinctions in all subjects (total students)</span><span> 74 </span></li>
+            </ul>
+        </div>
+        
+        <div class="table-container">
+            <p class="caption">Meritorious students getting 90% and above (Excluding Additional Subject FIT)</p>
+            <table class="fee-details">
+                <tr>
+                    <th>SN</th>
+                    <th>Name</th>
+                    <th>%</th>
+                </tr>
+                <tr>
+                <td>1</td>
+                <td>AYUSH AGARWAL</td>
+                <td>98.0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SARTHAK SHARMA</td>
+                <td>97.2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SACHIN PATHAK</td>
+                <td>96.8</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>NISHIR AGARWAL</td>
+                <td>96.4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>JATIN SHARMA</td>
+                <td>96.2</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>AMIT KUMAR</td>
+                <td>95.8</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>PRASHANT SHARMA</td>
+                <td>95.4</td>
+            </tr>
+             <tr>
+                <td>8</td>
+                <td>SANCHIT AGARWAL</td>
+                <td>94.6</td>
+            </tr>
+             <tr>
+                <td>9</td>
+                <td>SATYAM CHAUDHARY</td>
+                <td>94.2</td>
+            </tr>
+             <tr>
+                <td>10</td>
+                <td>CHITRANSH CHATURVEDI</td>
+                <td>94.0</td>
+            </tr>
+             <tr>
+                <td>11</td>
+                <td>ARADHYA UPADHYAY</td>
+                <td>93.6</td>
+            </tr>
+             <tr>
+                <td>12</td>
+                <td>RISHABH KAUSHIK</td>
+                <td>93.6</td>
+            </tr>
+             <tr>
+                 <td>13</td>
+                <td>CHUHAL SINGH FAUZDAR</td>
+                <td>93.6</td>
+            </tr>
+             <tr>
+                <td>14</td>
+                <td>ARPIT BHARDWAJ</td>
+                <td>93.2</td>
+            </tr>
+             <tr>
+                <td>15</td>
+                <td>RAS BIHARI</td>
+                <td>93.2</td>
+            </tr>
+             <tr>
+                <td>16</td>
+                <td>MAYANK UPADHAYAY</td>
+                <td>93.0</td>
+            </tr>
+             <tr>
+                <td>17</td>
+                <td>VISHNU SHARMA</td>
+                <td>92.8</td>
+            </tr>
+             <tr>
+                <td>18</td>
+                <td>AYUSH AGARWAL</td>
+                <td>92.8</td>
+            </tr>
+             <tr>
+                <td>19</td>
+                <td>BHARAT CHAUTURVEDI</td>
+                <td>92.6</td>
+            </tr>
+             <tr>
+                <td>20</td>
+                <td>GAURAV KUMAR</td>
+                <td>92.6</td>
+            </tr>
+             <tr>
+                <td>21</td>
+                <td>JIGNESH GAUTAM</td>
+                <td>92.6</td>
+            </tr>
+             <tr>
+                <td>22</td>
+                <td>DISHANT KUMAR</td>
+                <td>92.4</td>
+            </tr>
+             <tr>
+                <td>23</td>
+                <td>RISHAB SHUKLA</td>
+                <td>92.4</td>
+            </tr>
+            </table>
+            <table class="fee-details">
+            <tr>
+                <th>SN</th>
+                <th>Name</th>
+                <th>%</th>
+            </tr>
+             <tr>
+                <td>24</td>
+                <td>VIVEK SINGH</td>
+                <td>92.4</td>
+            </tr>
+             <tr>
+                <td>25</td>
+                <td>AYUSH GOYAL</td>
+                <td>92.2</td>
+            </tr>
+             <tr>
+                <td>26</td>
+                <td>SHIVAM SARASWAT</td>
+                <td>92.2</td>
+            </tr>
+             <tr>
+                <td>27</td>
+                <td>RUPESH DAHIYA</td>
+                <td>92.0</td>
+            </tr>
+             <tr>
+                <td>28</td>
+                <td>ABHISHEK SHARMA</td>
+                <td>91.8</td>
+            </tr>
+             <tr>
+                <td>29</td>
+                <td>ANUJ CHAUDHARY</td>
+                <td>91.6</td>
+            </tr>
+             <tr>
+                <td>30</td>
+                <td>DIVYANSHU GAUTAM</td>
+                <td>91.6</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>ROHIT KUMAR</td>
+                <td>91.6</td>
+            </tr>
+             <tr>
+                <td>32</td>
+                <td>KUSH PRATAP SINGH</td>
+                <td>91.6</td>
+            </tr>
+             <tr>
+                <td>33</td>
+                <td>SHYAM SUNDAR SHARMA</td>
+                <td>91.2</td>
+            </tr>
+             <tr>
+                <td>34</td>
+                <td>RAJ SINGH</td>
+                <td>91.0</td>
+            </tr>
+             <tr>
+                <td>35</td>
+                <td>YATENDRA SHARMA</td>
+                <td>91.0</td>
+            </tr>
+             <tr>
+                <td>36</td>
+                <td>ATUL KUMAR</td>
+                <td>90.8</td>
+            </tr>
+             <tr>
+                <td>37</td>
+                <td>SHIV SHANKAR</td>
+                <td>90.6</td>
+            </tr>
+             <tr>
+                <td>38</td>
+                <td>VIKRAM JADAUN</td>
+                <td>90.6</td>
+            </tr>
+             <tr>
+                <td>39</td>
+                <td>PRAKHAR SINGH</td>
+                <td>90.4</td>
+            </tr>
+             <tr>
+                <td>40</td>
+                <td>DEEPENDRA CHAUDHARY</td>
+                <td>90.2</td>
+            </tr>
+             <tr>
+                <td>41</td>
+                <td>BHAVESH SINGH</td>
+                <td>90.2</td>
+            </tr>
+              <tr>
+                <td>42</td>
+                <td>LOVE GARG</td>
+                <td>90.2</td>
+            </tr>
+              <tr>
+                <td>43</td>
+                <td>PAVAN KUMAR </td>
+                <td>90.2</td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>YOGENDRA GUPTA</td>
+                <td>90.0</td>
+            </tr>
+              <tr>
+                <td>45</td>
+                <td>RAJAT SINGH</td>
+                <td>90.0</td>
+            </tr>
+            
+        </table>
+    </div>
+        <!--============================= FOOTER =============================-->
+        <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="subscribe">
+                    <h3>Newsletter</h3>
+                    <form id="subscribeform" action="php/subscribe.php" method="post">
+                        <input class="signup_form" type="text" name="email" placeholder="Enter Your Email Address">
+                        <button type="submit" class="btn btn-warning" id="js-subscribe-btn">SUBSCRIBE</button>
+                        <div id="js-subscribe-result" data-success-msg="Success, Please check your email." data-error-msg="Oops! Something went wrong"></div>
+                        <!-- // end #js-subscribe-result -->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="foot-logo">
+                    <a href="index.html">
+                        <img src="" class="img-fluid" >
+                    </a>
+                    <p>© SHRIJI BABA SARASWATI VIDYA MANDIR.
+                        <br>2018 All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="sitemap">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="admission.html">Admissions</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="sitemap">
+                    <h3>Quick Links</h3>
+                    <ul>
+                            <li><a href="result.html">Entrance Exam Result</a></li>
+                            <li><a href="fees.html">Fees Structure</a></li>
+                            <li><a href="acres.html">Academic Results</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="address">
+                        <h3>Contact us</h3>
+                        <p><span>Address: </span> Govardhan Road, Mathura, Uttar Pradesh - 281004<br>Email : sjb_vidyamandir@yahoo.com
+                            <br> Phone : 0565-2422021, 2421474 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;+91 9084028091</p>
+                            <ul class="footer-social-icons">
+                                <li><a href="#"><i class="fa fa-facebook fa-fb" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin fa-in" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter fa-tw" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+                <!--//END FOOTER -->
+                <!-- jQuery, Bootstrap JS. -->
+                <script src="js/jquery.min.js"></script>
+                <script src="js/tether.min.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <!-- Plugins -->
+                <script src="js/slick.min.js"></script>
+                <script src="js/waypoints.min.js"></script>
+                <script src="js/counterup.min.js"></script>
+                <script src="js/instafeed.min.js"></script>
+                <script src="js/owl.carousel.min.js"></script>
+                <script src="js/validate.js"></script>
+                <script src="js/tweetie.min.js"></script>
+                <!-- Subscribe -->
+                <script src="js/subscribe.js"></script>
+                <!-- Script JS -->
+                <script src="js/script.js"></script>
+            </body>
+
+            </html>
