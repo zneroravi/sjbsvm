@@ -1206,6 +1206,27 @@ footer h3 {
   .about_bg h1 {
     font-size: 42px; } }
 
+
+
+
+.alumni-nav {
+  position: relative;
+  background: #ccc; }
+
+.alumni_bg {
+  background: url(../images/alumni.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
+  .alumni_bg h1 {
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding: 37px 0 90px;
+    font-weight: 700; }
+
+@media (max-width: 992px) {
+  .alumni_bg h1 {
+    font-size: 42px; } }
 /* ==============================================================
    ABOUT WELCOME
    ============================================================== */
